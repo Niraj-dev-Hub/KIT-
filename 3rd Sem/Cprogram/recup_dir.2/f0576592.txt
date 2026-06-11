@@ -1,0 +1,5 @@
+nt-funcs=foo
+
+   .. code-block:: console
+
+      clang -c a.cpp -Rpass-analysis=stack-frame-layout -foptimization-record-file=<file>

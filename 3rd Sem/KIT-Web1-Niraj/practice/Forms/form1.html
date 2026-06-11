@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <h2 align="center">Login Form</h2>
+
+    <table align="center"  cellspacing="6">
+      <tr>
+        <td>Username:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>Employment:</td>
+        <td><input type="text" /></td>
+      </tr>
+
+      <tr>
+        <td>Web Server:</td>
+        <td>
+          <select name="server" id="server">
+            <option value="server" selected>--Choose a server--</option>
+            <option value="Nepal">Nepal Server</option>
+            <option value="India">India Server</option>
+            <option value="us">US Server</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td rowspan="4">Please Specify Your role</td>
+        <td><input type="radio" id="radio" name="role" />Admin</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="role" />Engineer</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="role" />Manager</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="role" />Guest</td>
+      </tr>
+
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Single Sign-on to the following</td>
+        <td><input type="checkbox" name="sign" />Mail</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="sign" />Payroll</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="sign" />Self-service</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+             <input type="button" value="Login">
+             <input type="button" value="reset">
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+/* 
+
+#* Recursion 
+   -->  When a function is call  itself, it's called a recursion.
+
+ # properties of recursion
+  a. anything can be done with iteration is can be done with recursion or vice versa.
+
+  b. Recursion can give sometimes "simple solution" 
+
+  c." base cas"e is the condition which stops the recursion.
+
+  d.iteration ha infinite loop and recursion has "stack overflow"
+
+
+
+
+
+
+
+
+*/

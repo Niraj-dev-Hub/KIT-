@@ -1,0 +1,25 @@
+Assignment:
+
+WAP in C to input any integer values and display the corresponding days of a week using switch statement
+WAP in C to find the sum of 1+2+3+...+100.
+WAP in C to print the following pattern
+1
+1 0
+1 0 1 0
+1 0 1 0 1
+1 0 1 0 1 0
+
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2 
+1
+
+WAP in C to determine the greatest number among three numbers
+WAP in C to find the sum of all natural number from 1 to 20
+WAP in C to input a number and calculate the factorial of that number
+WAP in C to find the roots of a quadratic equation
+WAP in C to find sum of digits of given number
+WAP in C to read number and check if it is palindrome or not
+WAP in C to find the simple interest

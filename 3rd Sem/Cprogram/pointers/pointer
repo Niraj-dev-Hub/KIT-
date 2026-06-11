@@ -1,0 +1,12 @@
+ /*
+                  pointer
+   --> a variable that stores a memomey adress of other vairable                
+   
+    syntax
+       int age = 18;
+       int *ptr = &age;
+       int_age = *ptr;
+ 
+ 
+ 
+ */

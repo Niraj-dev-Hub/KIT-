@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;justify-content: center;
+}
+
+body{
+    background:linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%)
+    
+}
+
+h1{
+   color: #ec2842;
+   margin-left: 500px;
+}
+
+h2{
+    color: rgb(53, 45, 165);
+    font-size: 18px;
+    margin-left: 500px;
+
+}
+
+p{
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 400;
+
+}

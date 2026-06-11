@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <form action="/form" method="post" >
+        <label for="name"> Username : </label>
+         <input type="text" id="name" name="name" >
+          <br>
+        <label for="password">Password: &nbsp;</label>
+         <input type="password" name="password" id="password">
+          <br>
+        <label for="email" > Email: &nbsp; &nbsp; &nbsp; &nbsp;</label>
+         <input type="email" id="email" name="email">  
+         <br>
+         <br>
+         <p>Gender:
+         <label for="male">Male</label>
+          <input type="radio" id="male" name="gender">
+         <label for="female">Female</label>
+          <input type="radio" id="female" name="gender">
+          </p>
+        
+          <label for="sub">Select Subject:</label>
+          <select name="subject" id="sub">
+            <option value="Physics">Physics</option>
+            <option value="chem">Chemistry</option>
+            <option value="English">English</option>
+          </select>
+          <br>
+          <p>Select Faculty
+            <br>
+          <label for="dcom">DCOM</label>
+            <input type="checkbox" name="fac" id="dcom">
+            <br>
+          <label for="dce">DCE</label>
+            <input type="checkbox" name="fac" id="dce"> 
+            <br>
+            <label for="dae">DAE</label>
+            <input type="checkbox" name="fac" id="dae">
+            </p>
+
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>

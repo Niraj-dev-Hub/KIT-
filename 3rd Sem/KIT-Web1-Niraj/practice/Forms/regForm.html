@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <center>
+    <h2 style="color: rgb(55, 235, 187);">Registration Form</h2>
+
+    <br>
+    <table border="1" cellspacing="1">
+        <tr align="center">
+            <td><label for="fName">First Name:</label></td>
+            <td><input type="text" id="fName" placeholder="First Name"></td>
+        </tr>
+        <tr align="center">
+            <td><label for="sName">Second Name:</label></td>
+            <td><input type="text" id="sName" placeholder="Second Name"></td>
+        </tr>
+        <tr align="center">
+            <td>
+                <label for="mobile">Mobile No:</label>
+            </td>
+            <td>
+                <select name="number" id="num">
+                    <option value="+977" selected>+977</option>
+                    <option value="+91"> +91</option>
+                     <option value="+98"> +98</option>
+
+                </select>
+                <input type="number" id="mobile" placeholder="Mobile No">
+            </td>
+        </tr>
+        <tr align="center">
+            <td><label for="dob">Date of Birth:</label></td>
+            <td><input type="datetime-local" id="dob"></td>
+        </tr>
+        <tr align="center">
+            <td><label for="email">Email id:</label></td>
+            <td><input type="email" id="email" placeholder="Email"></td>
+        </tr>
+        <tr align="center">
+            <td><label for="web">Website URL:</label></td>
+            <td><input type="url" id="web" placeholder="Website URL"></td>
+        </tr>
+        <tr align="center">
+            <td><label for="gender">Gender:</label></td>
+            <td>
+                <input type="radio" id="gender" name="gen"> Male
+                <input type="radio" id="gender" name="gen"> Female
+            </td>
+        </tr>
+        <tr align="center">
+            <td><label for="range">Ability to learn new technology:</label></td>
+            <td><input type="range" id="range" value="30" max="100"></td>
+        </tr>
+        <tr align="center">
+            <td><label for="time">Time of Registration</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">
+                <button style="background-color: red;">Submit</button>
+                <button style="background-color: green;">Reset</button>
+            </td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>

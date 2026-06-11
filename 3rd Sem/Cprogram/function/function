@@ -1,0 +1,55 @@
+/* functions = block of codes that performs particular tasks.
+
+take argument -> do work -> return results
+
+I.  It can be used multiple times 
+II. Incereases code reusability.
+
+  1. Syntax 1
+   function prototype
+     void printHello();
+ 
+  2. Syntax 2
+    Function Definition
+     void printHello(){
+        printf("Hello");
+     }
+
+  3. Syntax 3
+    Function call ()
+     int main(){
+        printHello();
+        return 0;
+     }
+     
+
+   #properties
+     - execution always starts from main
+     - a function gets call directly or indirectly from main
+     - There can be multiple function in program
+
+   #passing arguments
+     -> function can take value and give some value
+         a.parameter   b. return value
+
+         examples: 
+                void printHello();  <---normal functions
+                void printTable(int n)  <--- only take parameters no return
+                int sum (int a, int b);  <--- take parameters and print values
+
+    Note:
+    a. function can return one value at a time 
+    b. changes to parameter in function donot chages in 
+        calling function.
+         because copy of argument is passed to the function.
+
+
+    #* Recursion 
+   -->  When a function is call  itself, it's called a recursion.
+
+   
+    
+
+
+
+     */

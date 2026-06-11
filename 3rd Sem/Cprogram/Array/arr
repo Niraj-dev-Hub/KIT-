@@ -1,0 +1,12 @@
+/*
+
+Array: collection of similar data types stored at contiguous memory location.
+
+syntax 
+  int arr[5]= {5,3,6,2,8};
+
+  printf("%d", arr[0]);
+
+
+
+*/

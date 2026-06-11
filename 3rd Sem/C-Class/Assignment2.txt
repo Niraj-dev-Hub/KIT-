@@ -1,0 +1,34 @@
+WAP to input mxn order matrix and find the sum of all even and odd numbers
+
+wap to generate fibonacci series 0,1,1,2,3,5,8,15,21,34 using function
+
+wap to add two numbers using pointer
+
+wap to swap two integers using pointer
+
+wap in c to input 10 integer number in an array and calculate the average number among them
+
+wap to input a number and check if it is even or odd using function
+
+wap to sort n numbers in an array in ascending order
+
+wap to find the factorial of an entered number using recursion
+
+wap in C to calculate the sum of 5 different numbers using array
+
+wap to find if given number is prime or not using function
+
+
+
+
+stucture and union
+
+wap in c using structure to display the name, address, roll no., marks and gender
+
+wap in C to take input from user having Student_ID, Student_Name, Student_Address and display those Student_Name whose address is "Kathmandu" using structure
+
+wap in C to store records of 20 employee and display the record in appropriate format.(data memebrs of the employee are id, name, and salary)
+
+wap using structure to display name, address and salary of two employees
+
+

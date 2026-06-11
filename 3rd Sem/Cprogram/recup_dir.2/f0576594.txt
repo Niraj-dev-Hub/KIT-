@@ -1,0 +1,2 @@
+ so -Wmax-tokens must be used
+in addition with the pragmas or -fmax-tokens flag to get any warnings.
